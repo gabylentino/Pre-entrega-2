@@ -1,0 +1,321 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*estilo body*/
+body {
+  background: rgb(117, 116, 113);
+  background: linear-gradient(
+    90deg,
+    rgba(117, 116, 113, 1) 26%,
+    rgba(117, 116, 113, 1) 28%,
+    rgba(138, 137, 133, 1) 35%,
+    rgba(119, 118, 115, 1) 63%,
+    rgba(97, 94, 92, 1) 83%
+  );
+}
+/*estilos de textos y titulos grales.*/
+h1 {
+    font-size: 100px;
+    padding: 10px;
+  }
+  
+.texto {
+    font-family: "Roboto monospace";
+    font-size: 20px;
+    color: rgb(235, 193, 5);
+    text-align: center;
+ }
+  
+  
+.titulo {
+    font-family: Righteous;
+    font-size: 100px;
+    color: rgb(235, 193, 5);
+    text-align: center;
+    padding: 50px;
+  }
+.titulo h2 {
+    font-family: Righteous;
+    font-size: 50px;
+    color: rgb(235, 193, 5);
+    text-align: center;
+    padding: 15px;
+  }
+  h2 {
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+  }
+  p{
+    color:rgb(235, 193, 5);
+  }
+/*estilos encabezados*/
+.navbar {
+  background-color: #171717;
+  font-family: Righteous;
+}
+
+.navbar-brand {
+  background-color: #171717;
+  font-family: Slackey;
+  color: rgb(235, 193, 5);
+}
+.navbar-brand:hover {
+  color: #8c3503;
+}
+.navbar a {
+  padding: 20px 20px;
+  color: rgb(235, 193, 5);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: #8c3503;
+}
+
+/*estilo index*/
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://images.pexels.com/photos/1267682/pexels-photo-1267682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#hero .titulo h1 {
+  font-family: Slackey;
+  font-size: 150px;
+  color: rgb(235, 193, 5);
+}
+
+#hero .titulo h2 {
+  font-family: Righteous;
+  font-size: 60px;
+  color: rgb(235, 193, 5);
+  animation:none !important ;
+}
+
+#informacion .premio {
+  padding: 20px;
+  text-align: center;
+}
+
+.info {
+  font-family: Righteous;
+  font-size: 30px;
+  color: rgb(235, 193, 5);
+  text-align: center;
+}
+
+
+#informacion {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 20px;
+  width: 100%;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5));
+}
+
+
+
+/*estilos bar*/
+h2{
+  font-family:Righteous ;
+  font-size: 60px;
+  text-align: center;
+  color:rgb(235, 193, 5);
+}
+.conocenos{
+  animation: none !important;
+}
+.veni{
+  font-size:40px !important ;
+}
+
+#bar {
+    padding: 35px;
+  }
+#galeria img {
+    width: 100%;
+    height: 300px;
+  }
+.col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+    color:#171717;
+  }
+#galeria img:hover {
+    border: 5px solid;
+  }
+/*estilos nosotros*/
+
+.row {
+    color: rgb(235, 193, 5);
+    padding: 10px;
+  }
+.nosotros {
+  font-family: Righteous;
+  font-size: 30px;
+  color: rgb(235, 193, 5);
+  text-align: center;
+  padding: 15px;
+}
+.nosotros:hover {
+  color: #8c3503;
+}
+#video {
+ width:100% ;
+ height:300px;
+}
+
+
+/*estilos cervezas*/
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta {
+  border: solid 2px rgb(235, 193, 5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+.tarjeta-img {
+  width: 250px;
+  margin-top: 25px;
+}
+.tarjeta-body {
+  margin: 10px;
+}
+.tarjeta-title {
+  padding: 5px;
+  font-family: Righteous;
+  font-size: 26px;
+  color: rgb(235, 193, 5);
+  text-align: center;
+}
+.tarjeta-text {
+  font-family: "Roboto monoscape";
+  font-size: 16px;
+  color: rgb(235, 193, 5);
+  text-align: center;
+}
+/*estilos pagina contacto*/
+
+.mapa {
+  font-family: Righteous;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(235, 193, 5);
+ 
+}
+/*estilos formulario de contacto*/
+.formulario {
+  background-color: #171717;
+  width: 450px;
+  padding: 30px 40px;
+  box-sizing: border-box;
+
+  border-radius: 7px;
+}
+
+.form {
+  font-family: Righteous;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(235, 193, 5);
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+input[type="submit"] {
+  background-color: rgb(235, 193, 5);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+input:hover {
+  color: #8c3503;
+}
+
+/*estilos pie de pagina*/
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 70px;
+  background: #171717;
+  width: 100%;
+  color: rgb(235, 193, 5);
+  font-family: Righteous;
+  font-size: 15px;
+  padding: 10px;
+}
+.redes a {
+  color: rgb(235, 193, 5);
+}
+.redes a:hover {
+  color: #8c3503;
+}
+
+/*Animacion */
+
+@keyframes animacion {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
